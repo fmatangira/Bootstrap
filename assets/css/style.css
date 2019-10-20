@@ -14,7 +14,7 @@ container {
 
 #name {
   float: left;
-  margin: 0 0 0 33%;
+  margin: 0 0 0 42.5%;
   padding: 20.08px 10.5px;
   background-color: #4aaaa5;
   font-size: 15px;
@@ -37,14 +37,6 @@ container {
 .colNav, .colName {
   height: 96.16px;
 }
-
-/* .colName {
-  background-color: yellow;
-}
-
-.colNav {
-  background-color: grey;
-} */
 
 a {
   text-decoration: none;
@@ -198,6 +190,18 @@ li {
   font-size: 20px;
 }
 
+label {
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  color: #777777;
+}
+
+.msgHeight {
+  height: 200px !important;
+}
+
+button {
+  background-color: #4aaaa5 !important;
+}
 .footer {
   background-color: #666666;
   padding-top: 30px;
