@@ -14,7 +14,7 @@ container {
 
 #name {
   float: left;
-  margin: 0 0 0 31.5%;
+  margin: 0 0 0 33%;
   padding: 20.08px 10.5px;
   background-color: #4aaaa5;
   font-size: 15px;
@@ -76,9 +76,11 @@ li {
   width: 100%;
 }
 
-.aboutMeCont {
+.contentContainer {
   background-color: white;
   margin: 52px 0 0 0;
+  height: 600px;
+  width: 960px !important;
 }
 
 #contentHeading {
@@ -92,12 +94,13 @@ li {
 #picOfMe {
   float: left;
   width: 150px;
-  margin: 40px 0 0 40px
+  margin: 25px 0 0 50px;
+  padding-right: 20px;
 }
 
 #aboutMe-p {
-  margin: 30px 0 0 50px;
-  padding-right: 50px;
+  margin: 16px 0 0 50px;
+  padding: 0 50px 0 0;
   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
   color: #777777;
   font-size: 20px;
@@ -106,6 +109,93 @@ li {
 
 .rowAboutMe {
   padding-bottom: 30px;
+}
+
+.contentRow {
+  /* background-color: blue; */
+  height: 200px;
+  margin: 35px 0 0 0;
+}
+
+.projectRow {
+  /* background-color: yellow; */
+  /* height: 150px; */
+  margin: 10px 20px;
+}
+
+#hangmanPic {
+  width: 180px;
+}
+
+#hangmanTitle {
+  position: absolute;
+  bottom: 0px;
+  left: 50px;
+  margin: 0 0 20px 0;
+  padding: 0 46.5px;
+  background-color: #4aaaa5;
+  color: white;
+  font-size: 20px;
+}
+
+#triviaPic {
+  width: 180px;
+}
+
+#triviaTitle {
+  position: absolute;
+  bottom: 0px;
+  left: 50px;
+  margin: 0 0 20px 0;
+  padding: 0 37px;
+  background-color: #4aaaa5;
+  color: white;
+  font-size: 20px;
+}
+
+#rpsPic {
+  width: 220px;
+}
+
+#rpsTitle {
+  position: absolute;
+  bottom: 0px;
+  left: 30px;
+  margin: 0 0 20px 0;
+  padding: 0 18.5px;
+  background-color: #4aaaa5;
+  color: white;
+  font-size: 20px;
+}
+
+#rpgPic {
+  width: 180px;
+}
+
+#rpgTitle {
+  position: absolute;
+  bottom: 0px;
+  left: 50px;
+  margin: 0 0 20px 0;
+  padding: 0 41px;
+  background-color: #4aaaa5;
+  color: white;
+  font-size: 20px;
+}
+
+#widgetPic {
+  width: 180px;
+}
+
+#widgetTitle {
+  position: absolute;
+  bottom: 0px;
+  left: 50px;
+  margin: 0 0 20px 0;
+  padding: 0 38px;
+  background-color: #4aaaa5;
+  color: white;
+  font-size: 20px;
 }
 
 .footer {
