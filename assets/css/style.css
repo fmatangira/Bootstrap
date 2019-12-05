@@ -119,12 +119,12 @@ li {
   width: 180px;
 }
 
-#hangmanTitle {
+#munchiTitle {
   position: absolute;
   bottom: 0px;
   left: 50px;
   margin: 0 0 20px 0;
-  padding: 0 46.5px;
+  padding: 0 58px;
   background-color: #4aaaa5;
   color: white;
   font-size: 20px;
